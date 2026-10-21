@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-21",
+  "upstream_sha": "6e91662888f4c99fa3b91279a62e572e2f8012d8",
+  "api_results": "real; see cases.json",
+  "native_application_verified": false,
+  "native_registration": "not applied",
+  "scope": "Independent asset generation and source-level integration analysis"
+}

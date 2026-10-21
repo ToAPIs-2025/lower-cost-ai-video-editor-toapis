@@ -1,0 +1,43 @@
+{
+  "gemini-nano-banana-2.1": {
+    "model": "gemini-nano-banana-2.1",
+    "kind": "image",
+    "request": {
+      "model": "gemini-nano-banana-2.1",
+      "n": 1,
+      "size": "1:1",
+      "metadata": {
+        "resolution": "1K"
+      }
+    },
+    "pricing_conditions": {
+      "resolution": "1K",
+      "n": 1,
+      "input_image_count": 0
+    },
+    "needs_image": false,
+    "historical_api_success": true,
+    "current_pricing_status": "available"
+  },
+  "kling-v3": {
+    "model": "kling-v3",
+    "kind": "video",
+    "request": {
+      "model": "kling-v3",
+      "duration": 5,
+      "mode": "std",
+      "aspect_ratio": "16:9",
+      "audio": false
+    },
+    "pricing_conditions": {
+      "duration": 5,
+      "mode": "std",
+      "audio": false,
+      "capability": "text2video",
+      "has_video_input": false
+    },
+    "needs_image": false,
+    "historical_api_success": true,
+    "current_pricing_status": "query_on_run"
+  }
+}

@@ -1,0 +1,125 @@
+[
+  {
+    "project": "AI Video Production Editor",
+    "date": "2026-10-21",
+    "model": "gemini-nano-banana-2.1",
+    "kind": "image",
+    "parameters": {
+      "model": "gemini-nano-banana-2.1",
+      "n": 1,
+      "size": "1:1",
+      "metadata": {
+        "resolution": "1K"
+      }
+    },
+    "quote": {
+      "model": "gemini-nano-banana-2.1",
+      "type": "image",
+      "conditions": {
+        "resolution": "1K",
+        "n": 1,
+        "input_image_count": 0
+      },
+      "currency": "USD",
+      "unit": "request",
+      "price_basis": "request",
+      "charge_type": "per_request",
+      "maximum_unit_price": "0.015",
+      "prices": [
+        {
+          "charge_type": "per_request",
+          "conditions": {
+            "input_image_count": 0,
+            "n": 1,
+            "resolution": "1K"
+          },
+          "group": "default",
+          "price_basis": "request",
+          "unit": "request",
+          "unit_price": "0.015"
+        }
+      ],
+      "queried_at": "2026-10-21T08:22:40.834254+00:00",
+      "is_final_charge": false
+    },
+    "estimated_usd": "0.015",
+    "status": "completed",
+    "cost": {
+      "model": "gemini-nano-banana-2.1",
+      "billing_status": "unavailable",
+      "actual_cost_usd": null,
+      "actual_credits": null
+    },
+    "file": "assets/gemini-nano-banana-2.1-2177dbcafa.jpg",
+    "price_basis": "Same-key quotation; task actual settlement unavailable",
+    "case_price_usd": "0.015",
+    "is_actual_charge": false,
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "project": "AI Video Production Editor",
+    "date": "2026-10-21",
+    "model": "kling-v3",
+    "kind": "video",
+    "parameters": {
+      "model": "kling-v3",
+      "duration": 5,
+      "mode": "std",
+      "aspect_ratio": "16:9",
+      "audio": false
+    },
+    "quote": {
+      "model": "kling-v3",
+      "type": "video",
+      "conditions": {
+        "duration": 5,
+        "mode": "std",
+        "audio": false,
+        "capability": "text2video",
+        "has_video_input": false
+      },
+      "currency": "USD",
+      "unit": "second",
+      "price_basis": "output_seconds",
+      "charge_type": "per_second",
+      "maximum_unit_price": "0.06",
+      "prices": [
+        {
+          "charge_type": "per_second",
+          "conditions": {
+            "audio": false,
+            "capability": "text2video",
+            "duration": 5,
+            "has_video_input": false,
+            "mode": "std"
+          },
+          "group": "default",
+          "price_basis": "output_seconds",
+          "unit": "second",
+          "unit_price": "0.06"
+        }
+      ],
+      "queried_at": "2026-10-21T08:22:42.101911+00:00",
+      "is_final_charge": false
+    },
+    "estimated_usd": "0.30",
+    "status": "completed",
+    "cost": {
+      "model": "kling-v3",
+      "billing_status": "settled",
+      "actual_cost_usd": "0.3",
+      "actual_credits": "60"
+    },
+    "file": "assets/kling-v3-9edf6511fb.mp4",
+    "price_basis": "API billing=settled",
+    "case_price_usd": "0.3",
+    "is_actual_charge": true,
+    "seconds": "5.04",
+    "width": 1280,
+    "height": 720,
+    "fully_decoded": true,
+    "actual_usd_per_second": "0.05952380952380952380952380952",
+    "preview": "assets/video-preview.jpg"
+  }
+]
